@@ -1,65 +1,387 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="assests/css/style.css">
-  <script src="https://kit.fontawesome.com/3e6d1ff2bb.js" crossorigin="anonymous"></script>
-</head>
+	<title>Navbar Qurmaq</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="">
+	<meta name="descreption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;0,900;1,700&display=swap" rel="stylesheet">
 
+	
+</head>
 <body>
 
-  <div class="container" style="display: flex;">
-    <div class="box p-relative">
-      <div class="new-icon"><span>NEW</span></div>
-      <div class="box-img">
-        <img src="assests/img/kulaklik.png" alt="kulaklik resmi">
-      </div>
-      <div class="box-item-text">
-        <p>CATEGORY</p>
-        <h3>Product Name Goes Here</h3>
-        <span>$980.00</span>
-        <span>$990.00</span>
-      </div>
-      <div class="box-item-start">
-        <hr>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <hr>
-      </div>
-      <div class="box-item-end">
-        <i class="fa-regular fa-heart"></i>
-        <i class="fa-solid fa-arrow-right-arrow-left"></i>
-        <i class="fa-solid fa-eye"></i>
-      </div>
-    </div>
-    <div class="box p-relative">
-      <div class="new-icon"><span>NEW</span></div>
-      <div class="box-img">
-        <img style="margin-top: 110px;"  src="assests/img/bilgisayar.png" alt="kulaklik resmi">
-      </div>
-      <div class="box-item-text">
-        <p>CATEGORY</p>
-        <h3>Product Name Goes Here</h3>
-        <span>$980.00</span>
-        <span>$990.00</span>
-      </div>
-      <div class="box-item-start">
-        <hr style="width: 95%;">
-      </div>
-      <div class="box-item-end">
-        <i class="fa-regular fa-heart"></i>
-        <i class="fa-solid fa-arrow-right-arrow-left"></i>
-        <i class="fa-solid fa-eye"></i>
-      </div>
-    </div>
 
-  </div>
+	<header class="bg-header position-relative h-100 w-100">
+		<div class="position-absolute overlay w-100 h-100 pb-5"></div>
+		<nav class="navbar navbar-expand-md">
+			<div class="container">
+			  <a class="navbar-brand" href="index.html">
+				  <img src="css/img/logo.png" class="img-fluid">
+				  <span class="roboto text-white">tajam</span>
+			  </a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="aqua" class="bi bi-list" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+				</svg>
+			  </button>
+			  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+				<ul class="navbar-nav text-uppercase fs-13">
+				  <li class="nav-item">
+					<a class="nav-link active  text-white" aria-current="page" href="index.html">Home</a>
+				  </li>
+				  <li class="nav-item text-center">
+					<a class="nav-link text-white" href="#about">Abouts</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link text-white" href="#">Teams</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link text-white" href="#expertise">Expertise</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link text-white" href="#">Works</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link text-white" href="#">People Say</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link text-white" href="#">Contact</a>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		</nav>
+		<div class="position-relative py-5">
+			<div class="container py-5">
+				<div class="row justify-content-center py-5">
+					<div class="col-md-10 text-center text-white py-4">
+						<h1 class="fs-32">We Are Awesome Creative Agency</h1>
+						<p class="fs-14 paragraph-color">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem <br>quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh <br>id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+						<a href="#" class="text-uppercase text-decoration-none button">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<section class="pt-5" id="about">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-md-4 text-center">
+					<img src="css/img/Replace-with-your-logo.png" class="img-fluid sect-img1 py-5">
+				</div>
+
+				<div class="col-md-7">
+					<h2 class="tex-sm-center">OUR STORY</h2>
+					<p class="paragraph-color">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus</p>
+					<p class="paragraph-color">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+					<div class="tex-sm-center"><a href="#" class="text-uppercase text-decoration-none button">Learn More</a></div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<section class="bg-section2 mt-5 position-relative">
+		<div class="overlay w-100 h-100 position-absolute"></div>
+		<div class="pt-5 text-center position-relative">
+			<div class="pt-5 mt-5">
+				<div class="outline mx-auto">
+					<a href="#" class="play"><img src="css/img/play.png" class="position-absolute py-4"></a>
+				</div><br>
+				<span class="text-white">WATCH OUR STORY</span>
+			</div>
+		</div>
+	</section>
+	
+
+
+	<section class="mt-5" id="expertise">
+		<div class="container">
+			<div class=" row pt-5 justify-content-center">
+				<div class="col-10 text-center">
+					<h2>EXPERTISE</h2>
+					<p class="paragraph-color">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+				</div>
+			</div>
+		</div>		
+	</section>
+
+
+
+	<section class="mt-5">
+		<div class="container pt-5">
+			<div class="row justify-content-between">
+				<div class="col-lg-4 col-md-6 line-right line-bottom box1">
+					<div class="text-center py-4">
+						<img src="css/img/icon1.png" class="img-fluid" style="height: 50px;">
+						<h4 class="fs-14 pt-4 pb-1">WEB DESIGN & DEVELOPMENT</h4>
+						<span class="fs-14 paragraph-color mb-2">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</span>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 line-right line-bottom box2">
+					<div class="text-center py-4">
+						<img src="css/img/icon2.png" class="img-fluid" style="height: 50px;">
+						<h4 class="fs-14 pt-4 pb-1">BRANDING IDENTITY</h4>
+						<span class="fs-14 paragraph-color mb-2">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</span>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 line-bottom line-right box3">
+					<div class="text-center py-4">
+						<img src="css/img/icon3.png" class="img-fluid" style="height: 50px;">
+						<h4 class="fs-14 pt-4 pb-1">WEB DESIGN & DEVELOPMENT</h4>
+						<span class="fs-14 paragraph-color mb-2">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</span>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 line-bottom line-right box4">
+					<div class="text-center py-4">
+						<img src="css/img/icon4.png" class="img-fluid" style="height: 50px;">
+						<h4 class="fs-14 pt-4 pb-1">SEARCH ENGINE OPTIMIZATION</h4>
+						<span class="fs-14 paragraph-color mb-2">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</span>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 line-bottom line-right box5">
+					<div class="text-center py-4">
+						<img src="css/img/icon5.png" class="img-fluid" style="height: 50px;">
+						<h4 class="fs-14 pt-4 pb-1">GAME DEVELOPMENT</h4>
+						<span class="fs-14 paragraph-color mb-2">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</span>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 line-bottom line-right box6">
+					<div class="text-center py-4">
+						<img src="css/img/icon6.png" class="img-fluid" style="height: 50px;">
+						<h4 class="fs-14 pt-4 pb-1">MADE WITH LOVE</h4>
+						<span class="fs-14 paragraph-color mb-2">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</span>
+					</div>
+				</div>
+				</div>
+
+				
+			</div>
+
+
+			
+			
+		</div>
+	</section>
+
+
+
+
+
+	<section class="bg-section3 position-relative h-100">
+		<div class="overlay w-100 h-100 position-absolute"></div>
+		<div class="container py-70">
+			<div class="text-center text-white position-relative">
+				<h3 class="fs-22">MEET OUR AMAZING TEAM</h3>
+				<p class="paragraph-color">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+				<div class="row justify-content-between mt-5 pt-4">
+					<div class="col-lg-3 col-md-6 mb-3">
+						<div class="py-1">
+							<img src="css/img/aleksandr.png" class="obj-fit" style="width: 230px;height: 380px;">
+							<h4 class="fs-17 pt-3 name-hover">ALEKSANR</h4>
+							<span class="paragraph-color fs-13">CEO & FOUNDER</span>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6  mb-3">
+						<div class="py-1">
+							<img src="css/img/aleksandr.png" class="obj-fit" style="width: 230px;height: 380px;">
+							<h4 class="fs-17 pt-3 name-hover">ALEKSANR</h4>
+							<span class="paragraph-color fs-13">CEO & FOUNDER</span>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6  mb-3">
+						<div class="py-1">
+							<img src="css/img/aleksandr.png" class="obj-fit" style="width: 230px;height: 380px;">
+							<h4 class="fs-17 pt-3 name-hover">ALEKSANR</h4>
+							<span class="paragraph-color fs-13">CEO & FOUNDER</span>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6  mb-3">
+						<div class="py-1">
+							<img src="css/img/aleksandr.png" class="obj-fit" style="width: 230px;height: 380px;">
+							<h4 class="fs-17 pt-3 name-hover">ALEKSANDR</h4>
+							<span class="paragraph-color fs-13">CEO & FOUNDER</span>
+						</div>
+					</div>		
+				</div>
+			</div>
+			<div class="position-relative text-center text-white">
+				<span class="d-block mt-4">Become part of our dream team, let’s join us !</span>
+				<a href="#" class="button text-decoration-none mt-4">WE ARE HIRING</a>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="py-5">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-5"><h4>OUR WORKS</h4></div>
+				<div class="col-5 text-end"><a href="#" class="text-decoration-none">See All Project in dribbble<span class="icon-animate">   >   </span></a></div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-2 px-0">
+					<img src="css/img/PUT-YOUR-IMAGE-HERE.png" class="w-100 h-200 obj-fit">
+				</div>
+				<div class="col-md-2 px-0">
+					<img src="css/img/PUT-YOUR-IMAGE-HERE.png" class="w-100 h-200 obj-fit overlay">
+				</div>
+				<div class="col-md-2 px-0">
+					<img src="css/img/PUT-YOUR-IMAGE-HERE.png" class="w-100 h-200 obj-fit">
+				</div>
+				<div class="col-md-2 px-0">
+					<img src="css/img/PUT-YOUR-IMAGE-HERE.png" class="w-100 h-200 obj-fit overlay">
+				</div>
+				<div class="col-md-2 px-0">
+					<img src="css/img/PUT-YOUR-IMAGE-HERE.png" class="w-100 h-200 obj-fit">
+				</div>
+				<div class="col-md-2 px-0">
+					<img src="css/img/PUT-YOUR-IMAGE-HERE.png" class="w-100 h-200 obj-fit overlay">
+				</div>
+				
+			</div>
+			<div class="row">
+				<div class="col-md-2 px-0">
+					<img src="css/img/PUT-YOUR-IMAGE-HERE.png" class="w-100 h-200 obj-fit">
+				</div>
+				<div class="col-md-2 px-0">
+					<img src="css/img/PUT-YOUR-IMAGE-HERE.png" class="w-100 h-200 obj-fit overlay">
+				</div>
+				<div class="col-md-2 px-0">
+					<img src="css/img/PUT-YOUR-IMAGE-HERE.png" class="w-100 h-200 obj-fit">
+				</div>
+				<div class="col-md-2 px-0">
+					<img src="css/img/PUT-YOUR-IMAGE-HERE.png" class="w-100 h-200 obj-fit overlay">
+				</div>
+				<div class="col-md-2 px-0">
+					<img src="css/img/PUT-YOUR-IMAGE-HERE.png" class="w-100 h-200 obj-fit">
+				</div>
+				<div class="col-md-2 px-0">
+					<img src="css/img/PUT-YOUR-IMAGE-HERE.png" class="w-100 h-200 obj-fit overlay">
+				</div>
+				
+			</div>
+			<div class="text-center my-5">
+				<a href="#" class="button">LOAD MORE</a>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="mb-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h2 class="fs-22 pb-3">GIVE US A GOOD NEWS</h2>
+					<form>
+						<input type="text" class="w-100 p-2 border-gray" placeholder="Name">
+
+						<input type="email" class="w-100 p-2 border-gray mt-4" placeholder="Email">
+
+						<input type="text" class="w-100 p-2 border-gray mt-4" placeholder="Subject">
+
+						<textarea class="w-100 p-2 border-gray mt-4 h-200" placeholder="Your Massage" style="max-height: 200px;"></textarea>
+						<input type="submit" class="button mt-4 px-4" value="Submit">
+					</form>
+				</div>
+
+
+
+				<div class="col-md-6">
+					<h2 class="fs-22 pb-3 pt-5">OUR HAPPY CLIENT</h2>
+					<div class="row pt-2 pb-4">
+						<div class="col-6">
+							<img src="css/img/zara.png" style="width: 162px;height:22px;">
+						</div>
+						<div class="col-6">
+							<img src="css/img/mango.png" style="width: 138px;height:22px;">
+						</div>
+					</div>
+					<div class="row pt-2 pb-4">
+						<div class="col-6">
+							<img src="css/img/newyork154x41.png" style="width: 154px;height:41px;">
+						</div>
+						<div class="col-6">
+							<img src="css/img/gucci140x21.png" style="width: 140px;height:21px;">
+						</div>
+					</div>
+					<div class="row pt-2 pb-4">
+						<div class="col-6">
+							<img src="css/img/calvinklein151x24.png" style="width: 151px;height:24px;">
+						</div>
+						<div class="col-6">
+							<img src="css/img/nike95x34.png" style="width: 95px;height:34px;">
+						</div>
+					</div>
+					<div class="row pt-2 pb-4">
+						<div class="col-6">
+							<img src="css/img/converse113x69.png" style="width: 113px;height:69px;">
+						</div>
+						<div class="col-6">
+							<img src="css/img/puma114x56.png" style="width: 114px;height:56px;">
+						</div>
+					</div>
+					<div class="row pt-2 pb-4">
+						<div class="col-6">
+							<img src="css/img/levis109x53.png" style="width: 109px;height:53px;">
+						</div>
+						<div class="col-6">
+							<img src="css/img/billabong130x70.png" style="width: 130px;height:70px;">
+						</div>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
-
 </html>
